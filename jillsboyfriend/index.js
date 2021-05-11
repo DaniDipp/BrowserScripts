@@ -7,7 +7,8 @@
 // @author      DaniDipp
 // @description Replaces every occurence of "Jill's Boyfriend" with "Jill's Boyfriend"
 // @run-at      document-idle
-// @downloadURL https://raw.githubusercontent.com/DaniDipp/BrowserScripts/main/jillsboyfriend/jillsboyfriend.js
+// @downloadURL https://raw.githubusercontent.com/DaniDipp/BrowserScripts/main/jillsboyfriend/index.js
+// @icon        https://github.com/DaniDipp/BrowserScripts/blob/main/jillsboyfriend/icon.png?raw=true
 // ==/UserScript==
 
 setInterval(function() {
@@ -22,4 +23,4 @@ setInterval(function() {
 		}
 	}
 	walkText(document.body);
-}, 300);
+}, 600);
